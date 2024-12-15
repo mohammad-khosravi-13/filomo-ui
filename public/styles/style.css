@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* قاعده‌های اضافی */
+.text-blue {
+    @apply text-blue-500; /* تغییر رنگ متن به آبی */
+}
+
+.bg-gray {
+    @apply bg-gray-200; /* تغییر رنگ پس‌زمینه به خاکستری */
+}
+
+.p-4 {
+    @apply p-4; /* افزودن padding به اندازه 1rem */
+}

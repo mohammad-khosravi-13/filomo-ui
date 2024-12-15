@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: IranSans;
+  src: url("../assets/fonts/IRANSansLight.woff");
+  src: url("../assets/fonts/IRANSansWeb-Light.woff");
+  src: url("../assets/fonts/IRANSansWeb-Light.woff2");
+}
+
+body {
+  font-family: IranSans;
+ 
+}
+
+.swiper {
+  width: 100%;
+  height: 400px;
+}
+
+.swiper-slide {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img{
+  width: 200px;
+  padding: 10px;
+}
+
+
+
+
+
+
+@media (max-width: 760px) {
+  .swiper-button-next {
+    transform: rotate(90deg);
+  }
+
+  .swiper-button-prev {
+    transform: rotate(90deg);
+  }
+}
+.imgback {
+  background-color: #151515;
+}
+.koodak {
+  background: -webkit-linear-gradient(245deg, #014053 0, #151515 40%);
+}
+
